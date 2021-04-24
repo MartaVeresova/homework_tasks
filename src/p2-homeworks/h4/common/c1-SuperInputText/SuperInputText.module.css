@@ -1,12 +1,30 @@
 .superInput {
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/*альтернативный класс для span*/
+.spanClassName {
 
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
 }
 
 .error {
     color: red;
+    font-family: Calibri, serif;
+    font-size: large;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }

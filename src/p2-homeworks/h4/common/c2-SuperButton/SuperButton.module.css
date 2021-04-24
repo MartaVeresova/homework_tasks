@@ -1,7 +1,115 @@
-.default {
+/*.default {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid powderblue;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+    background-color: white;
+}
 
+.default:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+}
+
+.default:hover:after {
+    border-color: powderblue;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+}
+
+
+.default:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .red {
-    background: red;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid red;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+    background-color: red;
+}
+
+.red:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .4s;
+}
+
+.red:hover:after {
+    border-color: red;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+}*/
+
+
+.default {
+    margin: 10px 20px;
+    padding: 10px 30px;
+    color: black;
+    border: 2px solid purple;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.default:hover {
+    background: plum;
+}
+
+.default:focus {
+    outline: none;
+    outline-offset: 0;
+}
+
+.default:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.red {
+    margin: 10px 20px;
+    padding: 10px 30px;
+    color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: red;
+}
+
+.red:hover {
+    background: #a20005;
+}
+
+.red:focus {
+    outline: none;
+    outline-offset: 0;
 }

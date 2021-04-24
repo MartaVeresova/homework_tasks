@@ -1,7 +1,9 @@
 .checkbox {
-
+    vertical-align: middle
 }
 
 .spanClassName {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
 
 }
