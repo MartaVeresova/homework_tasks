@@ -1,0 +1,44 @@
+.menu {
+    position: relative;
+    overflow: hidden;
+    min-height: 50px;
+}
+
+.submenu {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: all .3s linear;
+}
+
+.submenu > a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.submenu > img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(100%, -50%);
+}
+
+.menu:hover .submenu {
+    transform: translateX(0);
+}
+
+.preJunior {
+    color: lightskyblue;
+}
+
+.junior {
+    color: darkslateblue;
+}
+
+.juniorPlus {
+    color: cadetblue;
+}
