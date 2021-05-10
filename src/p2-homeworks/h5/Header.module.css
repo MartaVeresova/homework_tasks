@@ -27,7 +27,7 @@
     transform: translate(100%, -50%);
 }
 
-.menu:hover .submenu {
+.menu:hover .submenu:hover {
     transform: translateX(0);
 }
 
