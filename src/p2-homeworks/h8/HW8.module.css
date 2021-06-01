@@ -1,0 +1,6 @@
+.people {
+    display: flex;
+    width: 330px;
+    flex-direction: row;
+    justify-content: space-between;
+}
