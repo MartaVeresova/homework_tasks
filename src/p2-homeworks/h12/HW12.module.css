@@ -1,3 +1,11 @@
+.white {
+    background: white;
+}
+
+.white-text {
+    color: black;
+}
+
 .dark {
     background: dimgrey;
 }
@@ -14,10 +22,18 @@
     color: aqua;
 }
 
-.some {
+.green {
     background: lightgreen;
 }
 
-.some-text {
+.green-text {
     color: darkslateblue;
+}
+
+.blue {
+    background: lightskyblue;
+}
+
+.blue-text {
+    color: orangered;
 }
