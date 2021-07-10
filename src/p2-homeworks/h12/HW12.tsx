@@ -8,15 +8,12 @@ import {changeThemeAC} from './bll/themeReducer';
 const themes = ['white', 'dark', 'red', 'green', 'blue'];
 
 function HW12() {
-    debugger
-    const theme = useSelector<AppStoreType, string>(state => state.themeState.themes) // useSelector
+    const theme = useSelector<AppStoreType, string>(state => state.themeState.themes)
     const dispatch = useDispatch()
 
     const setThemes = (themes: string) => {
         dispatch(changeThemeAC(themes))
     }
-
-    // useDispatch, onChangeCallback
 
     return (
         <div className={s[theme]}>
